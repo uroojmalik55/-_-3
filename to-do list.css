@@ -1,41 +1,63 @@
-body{
-    background-color: rgb(5, 4, 24);
-    font-family: 'poppins', 'sans-serif';
+body {
+  background-color: rgb(5, 4, 24);
+  font-family: "poppins", "sans-serif";
 }
-.container{
-    width: 360px;
-    padding: 33px;
-    text-align: center;
-    background-color: #fff;
-    margin-left: 33%;
-    margin-top: 5px;
+
+.container {
+  width: 360px;
+  padding: 33px;
+  text-align: center;
+  background-color: #fff;
+  margin-left: 33%;
+  margin-top: 5px;
 }
-input{
-    width: 270px;
-    padding: 8px;
-    border: 2px solid rgb(6, 145, 145);
-    outline: none;
+
+input {
+  width: 270px;
+  padding: 8px;
+  border: 2px solid rgb(6, 145, 145);
+  outline: none;
 }
-button{
-    width: 60px;
-    height: 40px;
-    background-color: rgb(4, 29, 29);
-    color: white;
-    border: none;
-    cursor: pointer;
-    outline: none;
-    border-radius: 2px;
+
+button {
+  width: 60px;
+  height: 40px;
+  background-color: rgb(4, 29, 29);
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 2px;
 }
-.text ul{
-    position: relative;
-    background-color: rgb(5, 4, 24);
-    color: white;
-    padding: 7px;
-    font-size: 19px;
-    text-align: left;
+
+.text ul {
+  position: relative;
+  background-color: rgb(5, 4, 24);
+  color: white;
+  padding: 7px;
+  font-size: 19px;
+  text-align: left;
+  margin-top: 10px;
 }
-.text ul i{
-    position: absolute;
-    right: 10px;
-    cursor: pointer;
+
+.text ul i {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.text input[type="text"] {
+  width: 180px;
+}
+
+.text i.fa-check {
+  right: 10px;
+  color: green;
+}
+
+.text i.fa-pencil {
+  right: 50px;
+  color: orange;
 }
